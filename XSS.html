@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="XSSScript.js"></script>
+<link rel="stylesheet" href="XSSStyle.css">
+
+<body onload="WriteCookie()"> 
+<div class="input-area">
+<h1 class="heading">XSS</h1>
+<h2 class="subHeading">Cross Site Scripting (XSS)</h2>
+ 	 <input id="input-test" type="text" name="foo" />
+    <input class="submit-btn" type="button" onClick="callInput();" value="Submit"/>
+    <div id="test-html">
+      
+    </div>
+    <div id="test-innerHTML">
+      
+    </div>
+    <div class="flag">123455 </div>
+    <br> 
+    <a href="https://owasp.org/www-community/attacks/xss/" class="aboutLink" target="_blank">What is XSS ?</a>
+</div>
+</body>
+</html>
