@@ -52,6 +52,7 @@ cursor:pointer
   justify-content:center;
   align-items:center
 }
-.flag {
-    display: hidden;
+#result {
+    coloe:white;
+  width:600px
 }
