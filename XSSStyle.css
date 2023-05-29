@@ -9,6 +9,9 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 overflow: hidden;
 
 }
+#test-innerHTML {
+  color:white;
+  |}
 .heading
 {
 font-size:60px;
