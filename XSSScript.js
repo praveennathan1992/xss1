@@ -7,7 +7,8 @@ function callInput(){
 }
     
 function WriteCookie () {
-       Cookies.set('token', 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQ3Jvc3NTaXRlIFNjcmlwdGluZyIsIkZMQUdfMzoiOiJuSlVNNEtFWWRENG1TTWFuIiwiSXNzdWVyIjoiTmV4dHVwbGUiLCJVc2VybmFtZSI6IlhTUyIsImV4cCI6MTY4NTMyNzY3NywiaWF0IjoxNjg1MzI3Njc3fQ.zh352IRPtaVCD0-RCGedHvO7bSW5xwC7MIxEm6a0SnY' ) 
+       Cookies.set('token', 'eyJhbGciOiJIUzI1NiJ9.eyJGTEFHXzMiOiJGTEFHXzE6bkpVTTRLRVlkRDRtU01hbiIsIk9yZyI6Ik5leHR1cGxlIiwiVXNlcm5hbWUiOiJUZWFtX05leHR1cGxlIiwiRXZlbnQiOiJDVEYtMjAyMyIsImV4cCI6MTY4NTMzNjIzM30.AEyNFX9vglWG8QkDgPUfMaSLokznEyWUEAWWfQBy4CU
+' ) 
        Cookies.set('lorem', 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..')
 }
 
