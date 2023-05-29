@@ -1,7 +1,7 @@
 function callInput(){
         var input = document.getElementById('input-test').value;
         var testHtml = document.getElementById('test-html');
-        var testInnerHTML = document.getElementById('test-innerHTML');
+        var testInnerHTML = document.getElementById('result');
         $(testHtml).html(input);
         if(input === "<script>alert(document.cookie)</script>")
            {
