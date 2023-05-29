@@ -47,12 +47,16 @@ cursor:pointer
 .aboutLink{
     color:white
 }
-#test-innerHTML {
-   display:flex;
-  justify-content:center;
-  align-items:center
+#test-innerHTML
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#result {
-    coloe:white;
-  width:600px
+#result
+{
+   color:white;
+   width:600px;
+   word-wrap: break-word;
+   
 }
