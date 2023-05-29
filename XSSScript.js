@@ -3,7 +3,12 @@ function callInput(){
         var testHtml = document.getElementById('test-html');
         var testInnerHTML = document.getElementById('test-innerHTML');
         $(testHtml).html(input);
-        testInnerHTML.innerHTML = input; // ...; my%20name=John%20Smith
+        if(input === "<script>alert(document.cookie)</script>)
+           {
+            testInnerHTML.innerHTML = document.cokkie;
+           }
+           
+       
 }
     
 function WriteCookie () {
