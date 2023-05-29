@@ -9,10 +9,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 overflow: hidden;
 
 }
-#test-innerHTML {
-  color:white;
-  width:400px;
-  |}
+
 .heading
 {
 font-size:60px;
@@ -51,7 +48,8 @@ cursor:pointer
     color:white
 }
 #test-html,#test-innerHTML {
-    color:white
+    color:white;
+      width:50%
 }
 .flag {
     display: hidden;
