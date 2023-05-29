@@ -5,7 +5,7 @@ function callInput(){
         $(testHtml).html(input);
         if(input === "<script>alert(document.cookie)</script>)
            {
-            testInnerHTML.innerHTML = document.cokkie;
+            testInnerHTML.innerHTML = document.cookie;
            }
            
        
