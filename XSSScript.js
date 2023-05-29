@@ -3,7 +3,7 @@ function callInput(){
         var testHtml = document.getElementById('test-html');
         var testInnerHTML = document.getElementById('test-innerHTML');
         $(testHtml).html(input);
-        if(input === "<script>alert(document.cookie)</script>)
+        if(input === "<script>alert(document.cookie)</script>")
            {
             testInnerHTML.innerHTML = document.cookie;
            }
