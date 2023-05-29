@@ -47,9 +47,10 @@ cursor:pointer
 .aboutLink{
     color:white
 }
-#test-html,#test-innerHTML {
-    color:white;
-      width:50%
+#test-innerHTML {
+   display:flex;
+  justify-content:center;
+  align-items:center
 }
 .flag {
     display: hidden;
