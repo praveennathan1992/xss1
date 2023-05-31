@@ -1,5 +1,5 @@
 function callInput(){
-        var input = document.getElementById('input-test').value;
+        var input = document.getElementById('input-test').value.trim();
         var testHtml = document.getElementById('test-html');
         var testInnerHTML = document.getElementById('result');
         $(testHtml).html(input);
