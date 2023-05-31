@@ -12,8 +12,7 @@ function callInput(){
 }
     
 function WriteCookie () {
-       Cookies.set('token', 'eyJhbGciOiJIUzI1NiJ9.eyJGTEFHXzQiOiJqblNheDdERm5sMTBnVDJtIiwiT3JnIjoiTmV4dHVwbGUiLCJVc2VybmFtZSI6Ik5leHR1cGxlX1RlYW0iLCJFdmVudCI6IkNURi0yMDIzIiwiRGF0ZSI6IjIwMjMtMDYtMDcifQ.APk30ZG6g3mfr5N4S7A5k8f8UHatwL247-2qUYglAHc
-') 
+       Cookies.set('token', 'eyJhbGciOiJIUzI1NiJ9.eyJGTEFHXzQiOiJqblNheDdERm5sMTBnVDJtIiwiT3JnIjoiTmV4dHVwbGUiLCJVc2VybmFtZSI6Ik5leHR1cGxlX1RlYW0iLCJFdmVudCI6IkNURi0yMDIzIiwiRGF0ZSI6IjIwMjMtMDYtMDcifQ.APk30ZG6g3mfr5N4S7A5k8f8UHatwL247-2qUYglAHc') 
        Cookies.set('lorem', 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..')
 }
 
